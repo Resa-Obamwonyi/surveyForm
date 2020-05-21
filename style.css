@@ -1,0 +1,95 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position:relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient( 115deg, rgba(0, 0, 0, 0.8), rgba(133, 80, 155, 0.7) ), url(dande.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#main{
+    color: white;
+}
+.top-form{
+    padding-top: 40px;
+}
+#title{
+    text-align: center;
+}
+
+#description{
+    text-align: center;
+}
+
+.form-section{
+    background-color: black;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    padding:20px 50px;
+    border-radius: 4px;
+}
+.form-section p{
+    display: block;
+}
+
+.bio{
+    margin-top: 40px;
+}
+.bio label{
+    font-size: 20px;
+}
+.bio input{
+    display: block;
+    margin:10px 0 ;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+.bio input::placeholder {
+    padding-left: 5px;
+    font-size: 15px;
+}
+.devstack p{
+    font-size: 20px;
+}
+.devstack select{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.workspace{
+    margin-bottom: 30px;
+}
+.workspace p{
+    font-size: 20px;
+}
+.workspace label{
+    font-size: 15px;
+}
+
+.languages p{
+    font-size: 20px;
+}
+.languages label{
+    font-size: 15px;
+}
+.comments p{
+    font-size: 20px;
+}
+.comments textarea{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.btn button{
+    margin-top: 20px;
+    padding:20px 50px;
+    width:100%;
+    text-align: center;
+}
