@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <title>Developer Survey Form</title>
 </head>
 <body>
@@ -24,7 +24,7 @@
                     <input type="email" id="email" placeholder="Email" required>
                 </label>
                 <label for="Age" id="number-label">Age
-                    <input type="number" name="age" id="number" placeholder="Age">
+                    <input type="number" name="age" id="number" placeholder="Age" min="10" max="99">
                 </label>
                 </div>
 
@@ -43,13 +43,13 @@
                 <div class="workspace">
                  <p>How do you prefer working?</p>
                  <label for="office">
-                    <input type="radio" name="workmode" id="">
+                    <input type="radio" name="workmode" value="office-only" id="">
                      Office Only</label>
                  <label for="remote">                  
-                    <input type="radio" name="workmode" id="">
+                    <input type="radio" name="workmode" value="remote-only" id="">
                     Remote Only</label>
                  <label for="both">
-                    <input type="radio" name="workmode" id="">
+                    <input type="radio" name="workmode" value="officeandremote" id="">
                     Remote and Office</label>
                 </div>
 
